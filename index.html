@@ -1,0 +1,375 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta name="description" content="Best coffee shop with premium coffee, latte, espresso, and cold coffee. Freshly brewed everyday.">
+    <meta name="keywords" content="coffee shop, latte, espresso, cold coffee, cafe">
+    <meta name="author" content="Muhammad Saad">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.13.1/font/bootstrap-icons.min.css" integrity="sha512-t7Few9xlddEmgd3oKZQahkNI4dS6l80+eGEzFQiqtyVYdvcSG2D3Iub77R20BdotfRPA9caaRkg1tyaJiPmO0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert2/11.23.0/sweetalert2.min.css">
+    <title>Premium Coffee Shop | Fresh Coffee & Latte</title>>
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon.png">
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">Coffee <span>Shop</span></a>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav">
+                <span class="navbar-toggler-icon" aria-label="Toggle navigation"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="nav">
+                <ul class="navbar-nav mx-auto postion-relative">
+                    <li class="nav-item"><a class="nav-link" href="#home" aria-label="Home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about" aria-label="About">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#menu" aria-label="Menu">Menu</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#reviews" aria-label="Reviews">Reviews</a></li>
+                </ul>
+                <div class="d-flex gap-3">
+                    <a href="#" class=" social-icons text-white"><i class="bi bi-facebook"
+                            aria-label="Facebook"></i></a>
+                    <a href="#" class="social-icons text-white"><i class="bi bi-instagram"
+                            aria-label="Instagram"></i></a>
+                    <a href="#" class="social-icons text-white"><i class="bi bi-youtube" aria-label="YouTube"></i></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- pop-up -->
+    <section class="popup-section" id="popup">
+        <div class="popup-box">
+            <span class="close-popup" id="closePopup">
+                <i class="fa-solid fa-xmark"></i>
+            </span>
+            <div class="popup-top">
+                <i class="fa-solid fa-mug-hot"></i>
+                <h1>Welcome!</h1>
+                <p>Your favorite coffee is waiting ☕</p>
+            </div>
+            <div class="popup-content">
+                <h2>20% OFF Today</h2>
+                <p>
+                    Enjoy freshly brewed coffee with special discounts.
+                    Relax, sip, and feel the aroma of premium beans.
+                </p>
+                <!-- <a href="#home" class="popup-btn">Explore Menu</a> -->
+            </div>
+
+        </div>
+    </section>
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h1>Freshly Brewed <span>Coffee</span> Everyday</h1>
+                    <p>Enjoy the rich aroma and smooth taste of premium coffee made from freshly roasted beans. Start
+                        your day with happiness in every sip.</p>
+                    <a href="#menu" class="hero-btn" aria-label="Order Now">Order Now</a>
+                </div>
+                <div class="col-lg-6 hero-img">
+                    <img src="images/home.webp" loading="lazy" alt="Coffee Cup">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About Section -->
+    <section class="about-section py-5" id="about">
+        <div class="container">
+            <div class="row align-items-center g-5">
+                <div class="col-lg-6">
+                    <div class="about-img">
+                        <img src="images/about.webp" loading="lazy" alt="About" class="w-100 rounded">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="section-title">
+                        <h2><span>About</span> Us</h2>
+                        <p>We Serve The Best In City</p>
+                    </div>
+                    <div class="about-content">
+                        <p>Our coffee shop is made for coffee lovers who enjoy fresh flavors,
+                            relaxing vibes, and premium quality drinks. Every cup is crafted
+                            with care using freshly roasted beans and natural ingredients.</p>
+                        <p>
+                            Whether you want a strong espresso, creamy latte, or cold coffee,
+                            we make every sip memorable with love and passion.
+                        </p>
+                        <div class="about-info d-flex flex-wrap g-4 mt-4">
+                            <div class="info-box">
+                                <h3>10+</h3>
+                                <span>Years Experience</span>
+                            </div>
+                            <div class="info-box">
+                                <h3>25K</h3>
+                                <span>Happy Customers</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Menu Section -->
+    <section class="menu-section py-5" id="menu">
+        <div class="container">
+            <div class="section-title">
+                <h2><span>Our</span> Menu</h2>
+                <p>Explore Our Delicious Coffee Selection</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6">
+                    <div class="menu-card">
+                        <div class="menu-img">
+                            <img src="images/black.webp" loading="lazy" alt="Espresso">
+                        </div>
+                        <div class="menu-content">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <h3>Black Coffee</h3>
+                                <span>$8</span>
+                            </div>
+                            <p>
+                                Strong and rich coffee made from freshly roasted coffee beans.
+                            </p>
+                            <button class="buttton" type="button" data-bs-toggle="modal" data-bs-target="#orderModal"
+                                style="padding:12px 25px; border:none; background:var(--primary); color:var(--light); cursor:pointer; border-radius:50px;">
+                                Order Coffee
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="menu-card">
+                        <div class="menu-img">
+                            <img src="images/cold.webp" loading="lazy" alt="Cold Coffee">
+                        </div>
+                        <div class="menu-content">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <h3>Cold Coffee</h3>
+                                <span>$9</span>
+                            </div>
+                            <p>
+                                Refreshing cold coffee blended with ice and chocolate flavor.
+                            </p>
+                            <button class="buttton" type="button" data-bs-toggle="modal" data-bs-target="#orderModal"
+                                style="padding:12px 25px; border:none; background:var(--primary); color:var(--light); cursor:pointer; border-radius:50px;">
+                                Order Coffee
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="menu-card">
+                        <div class="menu-img">
+                            <img src="images/latte.webp" loading="lazy" alt="Latte">
+                        </div>
+                        <div class="menu-content">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <h3>Latte Coffee</h3>
+                                <span>$10</span>
+                            </div>
+                            <p>
+                                Soft and creamy latte with rich espresso and steamed milk.
+                            </p>
+                            <button class="buttton" type="button" data-bs-toggle="modal" data-bs-target="#orderModal"
+                                style="padding:12px 25px; border:none; background:var(--primary); color:var(--light); cursor:pointer; border-radius:50px;">
+                                Order Coffee
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="menu-card">
+                        <div class="menu-img">
+                            <img src="images/iced.webp" loading="lazy" alt="Iced Coffee">
+                        </div>
+                        <div class="menu-content">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <h3>Iced Coffee</h3>
+                                <span>$9</span>
+                            </div>
+                            <p>
+                                Refreshing cold coffee blended with ice and chocolate flavor.
+                            </p>
+                            <button class="buttton" type="button" data-bs-toggle="modal" data-bs-target="#orderModal"
+                                style="padding:12px 25px; border:none; background:var(--primary); color:var(--light); cursor:pointer; border-radius:50px;">
+                                Order Coffee
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="menu-card">
+                        <div class="menu-img">
+                            <img src="images/turkish.webp" loading="lazy" alt="Turkish Coffee">
+                        </div>
+                        <div class="menu-content">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <h3>Turkish Coffee</h3>
+                                <span>$10</span>
+                            </div>
+                            <p>Authentic Turkish coffee with a strong flavor and unique brewing method.</p>
+                            <button class="buttton" type="button" data-bs-toggle="modal" data-bs-target="#orderModal"
+                                style="padding:12px 25px; border:none; background:var(--primary); color:var(--light); cursor:pointer; border-radius:50px;">Order
+                                Coffee</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="menu-card">
+                        <div class="menu-img">
+                            <img src="images/Vieena.webp" loading="lazy" alt="Vienna Coffee">
+                        </div>
+                        <div class="menu-content">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <h3>Vienna Coffee</h3>
+                                <span>$7</span>
+                            </div>
+                            <p>Pure black coffee with bold aroma and authentic coffee taste.</p>
+                            <button class="buttton" type="button" data-bs-toggle="modal" data-bs-target="#orderModal"
+                                style="padding:12px 25px; border:none; background:var(--primary); color:var(--light); cursor:pointer; border-radius:50px;">Order
+                                Coffee</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Modal -->
+    <div class="modal fade" id="orderModal" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content bg-dark text-white">
+                <div class="modal-header border-secondary">
+                    <h5 class="modal-title text-center">Coffee Order Form ☕</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <form id="orderForm">
+                        <div class="mb-3">
+                            <label>Name</label>
+                            <input type="text" class="form-control" id="customerName" required>
+                        </div>
+                        <div class="mb-3">
+                            <label>Phone Number</label>
+                            <input type="tel" class="form-control" id="customerPhone" required>
+                        </div>
+                        <div class="mb-3">
+                            <label>Address</label>
+                            <textarea class="form-control" id="customerAddress" rows="3" required></textarea>
+                        </div>
+                        <div class="mb-3">
+                            <label>Select Coffee</label>
+                            <select class="form-select" id="coffeeName">
+                                <option>Black Coffee</option>
+                                <option>Cold Coffee</option>
+                                <option>Latte Coffee</option>
+                                <option>Iced Coffee</option>
+                                <option>Turkish Coffee</option>
+                                <option>Vienna Coffee</option>
+                            </select>
+                        </div>
+                        <div class="mb-3">
+                            <label>Quantity</label>
+                            <input type="number" class="form-control" id="quantity" min="1" value="1">
+                        </div>
+                        <button type="submit" class="btn w-100 text-white" style="background:#bb9457;">Confirm
+                            Order</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="reviews py-5" id="reviews">
+        <div class="container">
+            <div class="section-title">
+                <h2><span>Customer</span> Reviews</h2>
+                <p>What Our Customers Say About Us</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6">
+                    <div class="review-card">
+                        <div class="review-user d-flex align-items-center">
+                            <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="user">
+                            <div class="ms-3">
+                                <h3>Muhammad Saad</h3>
+                                <span>Coffee Lover</span>
+                            </div>
+                        </div>
+                        <p class="review-desc">“Absolutely the best coffee shop in town. The coffee tastes amazing and
+                            the environment is super relaxing.”</p>
+                        <div class="stars">
+                            <i class="bi bi-star-fill" aria-label="Star"></i>
+                            <i class="bi bi-star-fill" aria-label="Star"></i>
+                            <i class="bi bi-star-fill" aria-label="Star"></i>
+                            <i class="bi bi-star-fill" aria-label="Star"></i>
+                            <i class="bi bi-star-fill" aria-label="Star"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="review-card">
+                        <div class="review-user d-flex align-items-center">
+                            <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="user">
+                            <div class="ms-3">
+                                <h3>Rana Anas</h3>
+                                <span>Regular Customer</span>
+                            </div>
+                        </div>
+                        <p class="review-desc"> “I really love their cappuccino and cold coffee. The staff is friendly
+                            and the place feels very premium.”</p>
+                        <div class="stars">
+                            <i class="bi bi-star-fill" aria-label="Star"></i>
+                            <i class="bi bi-star-fill" aria-label="Star"></i>
+                            <i class="bi bi-star-fill" aria-label="Star"></i>
+                            <i class="bi bi-star-fill" aria-label="Star"></i>
+                            <i class="bi bi-star-fill" aria-label="Star"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="review-card">
+                        <div class="review-user d-flex align-items-center">
+                            <img src="https://randomuser.me/api/portraits/men/75.jpg" alt="user">
+                            <div class="ms-3">
+                                <h3>Muhammad Haris</h3>
+                                <span>Food Blogger</span>
+                            </div>
+                        </div>
+                        <p class="review-desc">“Fresh coffee, delicious desserts, and a modern vibe. Definitely my
+                            favorite place for evening coffee.”</p>
+                        <div class="stars">
+                            <i class="bi bi-star-fill" aria-label="Star"></i>
+                            <i class="bi bi-star-fill" aria-label="Star"></i>
+                            <i class="bi bi-star-fill" aria-label="Star"></i>
+                            <i class="bi bi-star-fill" aria-label="Star"></i>
+                            <i class="bi bi-star-fill" aria-label="Star"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container text-center py-4">
+            <div>
+                <p>&copy; 2026 All rights reserved. Developed by Muhammad Saad.</p>
+            </div>
+            <div class="d-flex justify-content-center gap-3 mt-3">
+                <a href="#" class="social-icons text-white"><i class="bi bi-facebook" aria-label="facebook"></i></a>
+                <a href="#" class="social-icons text-white"><i class="bi bi-instagram" aria-label="instagram"></i></a>
+                <a href="#" class="social-icons text-white"><i class="bi bi-youtube" aria-label="youtube"></i></a>
+            </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert2/11.23.0/sweetalert2.min.js" integrity="sha512-pnPZhx5S+z5FSVwy62gcyG2Mun8h6R+PG01MidzU+NGF06/ytcm2r6+AaWMBXAnDHsdHWtsxS0dH8FBKA84FlQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script/script.js"></script>
+</body>
+</html>
